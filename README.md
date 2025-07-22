@@ -1,4 +1,4 @@
-# IOT-BASED-PATIENT-MONITORING-SYSTEM
+# Smart Health Monitoring System Using ESP32
 The Internet of Things technology has led to the development of various innovative solutions for healthcare. In this article, we will explore the creation of a Health Monitoring System using the Blynk App, ESP32 Board, MAX30100 Sensor, DHT11 Sensor, and DS18B20 Sensor.
 Now we demonstrate how to build an IoT-based patient health monitoring system using the ESP32 microcontroller and the Blynk app. This project is designed to continuously monitor vital health parameters like heart rate, body temperature, and oxygen levels. The data is sent to the Blynk app in real time, allowing remote monitoring from anywhere.
 
@@ -15,7 +15,7 @@ Now we demonstrate how to build an IoT-based patient health monitoring system us
 
 The **ESP32** is a popular microcontroller board based on the **ESP32 SoC** developed by **Espressif Systems**. It is widely used in IoT and embedded applications due to its powerful features and wireless connectivity.
 
-### 🔑 Key Features
+### Key Features
 
 - **Microcontroller**: 32-bit Xtensa® LX6 dual-core processor  
 - **Clock Speed**: Up to 240 MHz  
@@ -23,7 +23,7 @@ The **ESP32** is a popular microcontroller board based on the **ESP32 SoC** deve
 - **Multitasking**: Dual-core architecture supports parallel processing  
 - **Ideal for**: Real-time applications, IoT systems, remote monitoring, and automation
   
-# 🩺 IoT-Based Patient Monitoring System
+# Smart Health Monitoring System Using ESP32
 
 A real-time IoT system built using **ESP32**, capable of measuring vital health parameters such as **heart rate**, **SpO₂**, **body temperature**, **ambient temperature**, and **humidity**. The data is displayed live on the **Blynk mobile app**, making it suitable for remote patient monitoring and health tracking.
 
@@ -41,7 +41,7 @@ A real-time IoT system built using **ESP32**, capable of measuring vital health 
 
 ---
 
-## ⚙️ ESP32 Board Features
+## ESP32 Board Features
 
 - **CPU**: Xtensa 32-bit LX6 Dual-core (160–240 MHz)  
 - **RAM**: 520 KB SRAM  
@@ -54,7 +54,7 @@ A real-time IoT system built using **ESP32**, capable of measuring vital health 
 
 ---
 
-## 📦 Sensor Descriptions
+## Sensor Descriptions
 
 ### MAX30100 - Pulse Oximeter & Heart Rate Sensor
 ![image](https://github.com/user-attachments/assets/54c6cb2d-c2ee-4921-be5e-bd4bc799ac85)
@@ -85,7 +85,7 @@ A real-time IoT system built using **ESP32**, capable of measuring vital health 
 
 ---
 
-## 🧪 Circuit Connections
+## Circuit Connections
 ![image](https://github.com/user-attachments/assets/284c0b3f-17ff-4c79-97b7-9c67fb37bfae)
 
 ### MAX30100
@@ -108,7 +108,7 @@ DATA → GPIO 5
 
 ---
 
-## 📱 Blynk App Setup
+## Blynk App Setup
 
 1. **Download the Blynk App** from Google Play or App Store  
 2. **Create a New Project**  
@@ -126,7 +126,7 @@ DATA → GPIO 5
    char auth[] = "YourAuthTokenHere";
 
   
-## 📚 Libraries Required
+## Libraries Required
 
 This project uses the following Arduino libraries. Please install them via the Arduino Library Manager or download from their official repositories:
 
@@ -148,9 +148,9 @@ This project uses the following Arduino libraries. Please install them via the A
 Make sure you install all required libraries before compiling the code.
 
 
-## 🌟 Project Impact
+## Project Impact
 
-This **IoT-Based Patient Monitoring System** empowers continuous, real-time health monitoring outside clinical settings, enhancing patient care by enabling early detection of abnormalities such as irregular heart rate or low oxygen levels. It reduces the need for frequent hospital visits, lowering healthcare costs and easing the burden on medical facilities. By leveraging affordable sensors and wireless connectivity, this system makes remote health monitoring accessible to underserved communities and improves overall health outcomes through timely intervention and data-driven decisions.
+This **Smart Health Monitoring System Using ESP32** empowers continuous, real-time health monitoring outside clinical settings, enhancing patient care by enabling early detection of abnormalities such as irregular heart rate or low oxygen levels. It reduces the need for frequent hospital visits, lowering healthcare costs and easing the burden on medical facilities. By leveraging affordable sensors and wireless connectivity, this system makes remote health monitoring accessible to underserved communities and improves overall health outcomes through timely intervention and data-driven decisions.
 
 
 
